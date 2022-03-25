@@ -11,7 +11,8 @@ class Main extends React.Component {
       cityName: '',
       latitude: '',
       longitude: '',
-      searchquery: ''
+      searchquery: '',
+      errorMessage: false
     }
   }
 
@@ -36,6 +37,8 @@ class Main extends React.Component {
         longitude: location.data[0].lon,
       })
     } catch (error) {
+      console.log(error);
+      this.setState({ errorMessage: error.response.data.error });
 
     }
   }
@@ -73,8 +76,8 @@ class Main extends React.Component {
             <p>{this.state.longitude}</p>
             <Map url={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_APIKEY}&center=${this.state.latitude},${this.state.longitude}&size=${window.innerWidth}x300&format=jpg&zoom=12`} />
           </div>
-  }
-    </>
+        }
+      </>
     )
   }
 

@@ -1,5 +1,13 @@
 # Project Name City Explorer
+Name of feature: ____error message?________________
 
+Estimate of time needed to complete: __unknown_
+
+Start time: __monday_
+
+Finish time: __thursday__
+
+Actual time needed to complete: __4 days__
 **Author**: Tanesha Brester
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
@@ -7,16 +15,18 @@
 
 
 ## Getting Started
-
+Trello, reading instructions, following the instructions
 
 ## Architecture
 
 
 ## Change Log
-
+03/21 started on projects
+03/22 worked on step 2 and 3 with TA
+03/24added error handling
 
 ## Credit and Collaborations
-Working with Anthony Hill
+Working with Anthony Hill, Michelle, Ryan, TA's,
 
 
 # Getting Started with Create React App
