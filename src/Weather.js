@@ -19,4 +19,4 @@ class Weather extends React.Component {
 }
 
 // create variable, set state to axiosdata.data and use the information from weather stuff
-let dataOnPage = setState.axiosData.data
+// let dataOnPage = setState.axiosData.data
